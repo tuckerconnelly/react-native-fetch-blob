@@ -3,6 +3,7 @@ testconfig
 RNFetchBlobTest/
 test/test-server/public/*
 !test/test-server/public/github.png
+lib/
 
 # OSX
 #
@@ -27,6 +28,8 @@ DerivedData
 *.ipa
 *.xcuserstate
 project.xcworkspace
+*.dSYM.zip
+*.dSYM
 
 # Android/IJ
 #
@@ -44,3 +47,20 @@ buck-out/
 \.buckd/
 android/app/libs
 android/keystores/debug.keystore
+
+# Carthage
+#
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+
+Carthage/Build
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Gitignore.md
+
+fastlane/report.xml
+fastlane/screenshots
