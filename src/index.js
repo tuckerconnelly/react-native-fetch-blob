@@ -9,7 +9,7 @@ import {
   NativeAppEventEmitter,
   Platform,
   AsyncStorage,
-} from 'react-native'
+} from 'react-native-universal'
 import type {
   RNFetchBlobNative,
   RNFetchBlobConfig,
