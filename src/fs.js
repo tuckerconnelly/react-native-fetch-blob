@@ -8,7 +8,7 @@ import {
   DeviceEventEmitter,
   Platform,
   NativeAppEventEmitter,
-} from 'react-native'
+} from 'react-native-universal'
 import RNFetchBlobSession from './class/RNFetchBlobSession'
 import RNFetchBlobWriteStream from './class/RNFetchBlobWriteStream'
 import RNFetchBlobReadStream from './class/RNFetchBlobReadStream'

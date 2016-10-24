@@ -7,7 +7,7 @@ import {
   NativeModules,
   DeviceEventEmitter,
   NativeAppEventEmitter,
-} from 'react-native'
+} from 'react-native-universal'
 import UUID from '../utils/uuid'
 
 const RNFetchBlob = NativeModules.RNFetchBlob
