@@ -1,5 +1,5 @@
 {
-  "name": "react-native-fetch-blob-dev-env",
+  "name": "react-native-fetch-blob",
   "description": "RNFB development environment, not dist package",
   "version": "0.10.0-dev",
   "private": true,
